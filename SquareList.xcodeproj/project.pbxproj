@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		572D15CD60F2AA226253CEF6 /* libPods-SquareList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F397743EA0ED8CFA862E77C /* libPods-SquareList.a */; };
+		F49A85021F22F13E00313F84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F49A85011F22F13E00313F84 /* main.m */; };
+		F49A85051F22F13E00313F84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F49A85041F22F13E00313F84 /* AppDelegate.m */; };
+		F49A85081F22F13E00313F84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49A85071F22F13E00313F84 /* ViewController.m */; };
+		F49A850B1F22F13E00313F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49A85091F22F13E00313F84 /* Main.storyboard */; };
+		F49A850D1F22F13E00313F84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49A850C1F22F13E00313F84 /* Assets.xcassets */; };
+		F49A85101F22F13E00313F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49A850E1F22F13E00313F84 /* LaunchScreen.storyboard */; };
+		F49A851B1F22F13E00313F84 /* SquareListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F49A851A1F22F13E00313F84 /* SquareListTests.m */; };
+		F49A85261F22F13E00313F84 /* SquareListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F49A85251F22F13E00313F84 /* SquareListUITests.m */; };
+		F4E4FC461F22FCF7005EB502 /* SquareListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC451F22FCF7005EB502 /* SquareListViewController.m */; };
+		F4E4FC491F22FD5C005EB502 /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC481F22FD5C005EB502 /* SquareViewController.m */; };
+		F4E4FC4C1F230293005EB502 /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC4B1F230293005EB502 /* WaterFlowLayout.m */; };
+		F4E4FC501F2302A7005EB502 /* SquareListCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC4E1F2302A7005EB502 /* SquareListCollectionCell.m */; };
+		F4E4FC511F2302A7005EB502 /* SquareListCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E4FC4F1F2302A7005EB502 /* SquareListCollectionCell.xib */; };
+		F4E4FC541F230303005EB502 /* ShareListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC531F230303005EB502 /* ShareListItem.m */; };
+		F4E4FC681F230313005EB502 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC571F230313005EB502 /* BaseService.m */; };
+		F4E4FC691F230313005EB502 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC591F230313005EB502 /* Constant.m */; };
+		F4E4FC6A1F230313005EB502 /* MainService.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC5C1F230313005EB502 /* MainService.m */; };
+		F4E4FC6B1F230313005EB502 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC5E1F230313005EB502 /* Service.m */; };
+		F4E4FC6C1F230313005EB502 /* ServiceAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC601F230313005EB502 /* ServiceAPI.m */; };
+		F4E4FC6D1F230313005EB502 /* ServiceCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC631F230313005EB502 /* ServiceCookie.m */; };
+		F4E4FC6E1F230313005EB502 /* ServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC651F230313005EB502 /* ServiceFactory.m */; };
+		F4E4FC6F1F230313005EB502 /* ServiceParams.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC671F230313005EB502 /* ServiceParams.m */; };
+		F4E4FC741F230471005EB502 /* UIColor+HGJ.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC731F230471005EB502 /* UIColor+HGJ.m */; };
+		F4E4FC771F231D94005EB502 /* RefreshResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E4FC761F231D94005EB502 /* RefreshResult.m */; };
+		F4E4FC791F2326FC005EB502 /* square.json in Resources */ = {isa = PBXBuildFile; fileRef = F4E4FC781F2326FC005EB502 /* square.json */; };
+		F4E4FC7B1F2329AF005EB502 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F4E4FC7A1F2329AF005EB502 /* data.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F49A85171F22F13E00313F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49A84F51F22F13E00313F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49A84FC1F22F13E00313F84;
+			remoteInfo = SquareList;
+		};
+		F49A85221F22F13E00313F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F49A84F51F22F13E00313F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49A84FC1F22F13E00313F84;
+			remoteInfo = SquareList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F397743EA0ED8CFA862E77C /* libPods-SquareList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SquareList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8910D980833156B3598A88A9 /* Pods-SquareList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquareList/Pods-SquareList.debug.xcconfig"; sourceTree = "<group>"; };
+		90C2C2ACC5A2526736A7A064 /* Pods-SquareList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareList.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquareList/Pods-SquareList.release.xcconfig"; sourceTree = "<group>"; };
+		F49A84FD1F22F13E00313F84 /* SquareList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49A85011F22F13E00313F84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F49A85031F22F13E00313F84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F49A85041F22F13E00313F84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F49A85061F22F13E00313F84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F49A85071F22F13E00313F84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F49A850A1F22F13E00313F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F49A850C1F22F13E00313F84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F49A850F1F22F13E00313F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F49A85111F22F13E00313F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49A85161F22F13E00313F84 /* SquareListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49A851A1F22F13E00313F84 /* SquareListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareListTests.m; sourceTree = "<group>"; };
+		F49A851C1F22F13E00313F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49A85211F22F13E00313F84 /* SquareListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49A85251F22F13E00313F84 /* SquareListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareListUITests.m; sourceTree = "<group>"; };
+		F49A85271F22F13E00313F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E4FC441F22FCF7005EB502 /* SquareListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareListViewController.h; sourceTree = "<group>"; };
+		F4E4FC451F22FCF7005EB502 /* SquareListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareListViewController.m; sourceTree = "<group>"; };
+		F4E4FC471F22FD5C005EB502 /* SquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareViewController.h; sourceTree = "<group>"; };
+		F4E4FC481F22FD5C005EB502 /* SquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
+		F4E4FC4A1F230293005EB502 /* WaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		F4E4FC4B1F230293005EB502 /* WaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
+		F4E4FC4D1F2302A7005EB502 /* SquareListCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareListCollectionCell.h; sourceTree = "<group>"; };
+		F4E4FC4E1F2302A7005EB502 /* SquareListCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareListCollectionCell.m; sourceTree = "<group>"; };
+		F4E4FC4F1F2302A7005EB502 /* SquareListCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareListCollectionCell.xib; sourceTree = "<group>"; };
+		F4E4FC521F230303005EB502 /* ShareListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareListItem.h; sourceTree = "<group>"; };
+		F4E4FC531F230303005EB502 /* ShareListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareListItem.m; sourceTree = "<group>"; };
+		F4E4FC561F230313005EB502 /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
+		F4E4FC571F230313005EB502 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
+		F4E4FC581F230313005EB502 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		F4E4FC591F230313005EB502 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		F4E4FC5A1F230313005EB502 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F4E4FC5B1F230313005EB502 /* MainService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainService.h; sourceTree = "<group>"; };
+		F4E4FC5C1F230313005EB502 /* MainService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainService.m; sourceTree = "<group>"; };
+		F4E4FC5D1F230313005EB502 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		F4E4FC5E1F230313005EB502 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		F4E4FC5F1F230313005EB502 /* ServiceAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceAPI.h; sourceTree = "<group>"; };
+		F4E4FC601F230313005EB502 /* ServiceAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceAPI.m; sourceTree = "<group>"; };
+		F4E4FC611F230313005EB502 /* ServiceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceConfig.h; sourceTree = "<group>"; };
+		F4E4FC621F230313005EB502 /* ServiceCookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceCookie.h; sourceTree = "<group>"; };
+		F4E4FC631F230313005EB502 /* ServiceCookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceCookie.m; sourceTree = "<group>"; };
+		F4E4FC641F230313005EB502 /* ServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceFactory.h; sourceTree = "<group>"; };
+		F4E4FC651F230313005EB502 /* ServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceFactory.m; sourceTree = "<group>"; };
+		F4E4FC661F230313005EB502 /* ServiceParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceParams.h; sourceTree = "<group>"; };
+		F4E4FC671F230313005EB502 /* ServiceParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceParams.m; sourceTree = "<group>"; };
+		F4E4FC701F23039F005EB502 /* HeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
+		F4E4FC711F2303A4005EB502 /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		F4E4FC721F230471005EB502 /* UIColor+HGJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HGJ.h"; sourceTree = "<group>"; };
+		F4E4FC731F230471005EB502 /* UIColor+HGJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HGJ.m"; sourceTree = "<group>"; };
+		F4E4FC751F231D94005EB502 /* RefreshResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshResult.h; sourceTree = "<group>"; };
+		F4E4FC761F231D94005EB502 /* RefreshResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshResult.m; sourceTree = "<group>"; };
+		F4E4FC781F2326FC005EB502 /* square.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = square.json; sourceTree = "<group>"; };
+		F4E4FC7A1F2329AF005EB502 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49A84FA1F22F13E00313F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572D15CD60F2AA226253CEF6 /* libPods-SquareList.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49A85131F22F13E00313F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49A851E1F22F13E00313F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1A34567AACF545161668159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F397743EA0ED8CFA862E77C /* libPods-SquareList.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E56FE5665409F9B58D6CEEC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8910D980833156B3598A88A9 /* Pods-SquareList.debug.xcconfig */,
+				90C2C2ACC5A2526736A7A064 /* Pods-SquareList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F49A84F41F22F13E00313F84 = {
+			isa = PBXGroup;
+			children = (
+				F49A84FF1F22F13E00313F84 /* SquareList */,
+				F49A85191F22F13E00313F84 /* SquareListTests */,
+				F49A85241F22F13E00313F84 /* SquareListUITests */,
+				F49A84FE1F22F13E00313F84 /* Products */,
+				E56FE5665409F9B58D6CEEC9 /* Pods */,
+				A1A34567AACF545161668159 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F49A84FE1F22F13E00313F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49A84FD1F22F13E00313F84 /* SquareList.app */,
+				F49A85161F22F13E00313F84 /* SquareListTests.xctest */,
+				F49A85211F22F13E00313F84 /* SquareListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49A84FF1F22F13E00313F84 /* SquareList */ = {
+			isa = PBXGroup;
+			children = (
+				F4E4FC551F230313005EB502 /* Service */,
+				F49A85031F22F13E00313F84 /* AppDelegate.h */,
+				F49A85041F22F13E00313F84 /* AppDelegate.m */,
+				F4E4FC701F23039F005EB502 /* HeaderFile.h */,
+				F4E4FC711F2303A4005EB502 /* AppMacro.h */,
+				F4E4FC721F230471005EB502 /* UIColor+HGJ.h */,
+				F4E4FC731F230471005EB502 /* UIColor+HGJ.m */,
+				F4E4FC4A1F230293005EB502 /* WaterFlowLayout.h */,
+				F4E4FC4B1F230293005EB502 /* WaterFlowLayout.m */,
+				F4E4FC521F230303005EB502 /* ShareListItem.h */,
+				F4E4FC531F230303005EB502 /* ShareListItem.m */,
+				F4E4FC751F231D94005EB502 /* RefreshResult.h */,
+				F4E4FC761F231D94005EB502 /* RefreshResult.m */,
+				F49A85061F22F13E00313F84 /* ViewController.h */,
+				F49A85071F22F13E00313F84 /* ViewController.m */,
+				F4E4FC471F22FD5C005EB502 /* SquareViewController.h */,
+				F4E4FC481F22FD5C005EB502 /* SquareViewController.m */,
+				F4E4FC441F22FCF7005EB502 /* SquareListViewController.h */,
+				F4E4FC451F22FCF7005EB502 /* SquareListViewController.m */,
+				F4E4FC4D1F2302A7005EB502 /* SquareListCollectionCell.h */,
+				F4E4FC4E1F2302A7005EB502 /* SquareListCollectionCell.m */,
+				F4E4FC4F1F2302A7005EB502 /* SquareListCollectionCell.xib */,
+				F49A85091F22F13E00313F84 /* Main.storyboard */,
+				F49A850C1F22F13E00313F84 /* Assets.xcassets */,
+				F4E4FC7A1F2329AF005EB502 /* data.json */,
+				F4E4FC781F2326FC005EB502 /* square.json */,
+				F49A850E1F22F13E00313F84 /* LaunchScreen.storyboard */,
+				F49A85111F22F13E00313F84 /* Info.plist */,
+				F49A85001F22F13E00313F84 /* Supporting Files */,
+			);
+			path = SquareList;
+			sourceTree = "<group>";
+		};
+		F49A85001F22F13E00313F84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49A85011F22F13E00313F84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F49A85191F22F13E00313F84 /* SquareListTests */ = {
+			isa = PBXGroup;
+			children = (
+				F49A851A1F22F13E00313F84 /* SquareListTests.m */,
+				F49A851C1F22F13E00313F84 /* Info.plist */,
+			);
+			path = SquareListTests;
+			sourceTree = "<group>";
+		};
+		F49A85241F22F13E00313F84 /* SquareListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F49A85251F22F13E00313F84 /* SquareListUITests.m */,
+				F49A85271F22F13E00313F84 /* Info.plist */,
+			);
+			path = SquareListUITests;
+			sourceTree = "<group>";
+		};
+		F4E4FC551F230313005EB502 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F4E4FC561F230313005EB502 /* BaseService.h */,
+				F4E4FC571F230313005EB502 /* BaseService.m */,
+				F4E4FC581F230313005EB502 /* Constant.h */,
+				F4E4FC591F230313005EB502 /* Constant.m */,
+				F4E4FC5A1F230313005EB502 /* Header.h */,
+				F4E4FC5B1F230313005EB502 /* MainService.h */,
+				F4E4FC5C1F230313005EB502 /* MainService.m */,
+				F4E4FC5D1F230313005EB502 /* Service.h */,
+				F4E4FC5E1F230313005EB502 /* Service.m */,
+				F4E4FC5F1F230313005EB502 /* ServiceAPI.h */,
+				F4E4FC601F230313005EB502 /* ServiceAPI.m */,
+				F4E4FC611F230313005EB502 /* ServiceConfig.h */,
+				F4E4FC621F230313005EB502 /* ServiceCookie.h */,
+				F4E4FC631F230313005EB502 /* ServiceCookie.m */,
+				F4E4FC641F230313005EB502 /* ServiceFactory.h */,
+				F4E4FC651F230313005EB502 /* ServiceFactory.m */,
+				F4E4FC661F230313005EB502 /* ServiceParams.h */,
+				F4E4FC671F230313005EB502 /* ServiceParams.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F49A84FC1F22F13E00313F84 /* SquareList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49A852A1F22F13E00313F84 /* Build configuration list for PBXNativeTarget "SquareList" */;
+			buildPhases = (
+				02388EA78512B7A30398A59C /* [CP] Check Pods Manifest.lock */,
+				F49A84F91F22F13E00313F84 /* Sources */,
+				F49A84FA1F22F13E00313F84 /* Frameworks */,
+				F49A84FB1F22F13E00313F84 /* Resources */,
+				5C44B94884383AB90E96912A /* [CP] Embed Pods Frameworks */,
+				04E627EC799B5846F0920831 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquareList;
+			productName = SquareList;
+			productReference = F49A84FD1F22F13E00313F84 /* SquareList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F49A85151F22F13E00313F84 /* SquareListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49A852D1F22F13E00313F84 /* Build configuration list for PBXNativeTarget "SquareListTests" */;
+			buildPhases = (
+				F49A85121F22F13E00313F84 /* Sources */,
+				F49A85131F22F13E00313F84 /* Frameworks */,
+				F49A85141F22F13E00313F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F49A85181F22F13E00313F84 /* PBXTargetDependency */,
+			);
+			name = SquareListTests;
+			productName = SquareListTests;
+			productReference = F49A85161F22F13E00313F84 /* SquareListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F49A85201F22F13E00313F84 /* SquareListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49A85301F22F13E00313F84 /* Build configuration list for PBXNativeTarget "SquareListUITests" */;
+			buildPhases = (
+				F49A851D1F22F13E00313F84 /* Sources */,
+				F49A851E1F22F13E00313F84 /* Frameworks */,
+				F49A851F1F22F13E00313F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F49A85231F22F13E00313F84 /* PBXTargetDependency */,
+			);
+			name = SquareListUITests;
+			productName = SquareListUITests;
+			productReference = F49A85211F22F13E00313F84 /* SquareListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F49A84F51F22F13E00313F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Speed;
+				TargetAttributes = {
+					F49A84FC1F22F13E00313F84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DFX5JC2W9J;
+						ProvisioningStyle = Automatic;
+					};
+					F49A85151F22F13E00313F84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DFX5JC2W9J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F49A84FC1F22F13E00313F84;
+					};
+					F49A85201F22F13E00313F84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DFX5JC2W9J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F49A84FC1F22F13E00313F84;
+					};
+				};
+			};
+			buildConfigurationList = F49A84F81F22F13E00313F84 /* Build configuration list for PBXProject "SquareList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F49A84F41F22F13E00313F84;
+			productRefGroup = F49A84FE1F22F13E00313F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49A84FC1F22F13E00313F84 /* SquareList */,
+				F49A85151F22F13E00313F84 /* SquareListTests */,
+				F49A85201F22F13E00313F84 /* SquareListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49A84FB1F22F13E00313F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49A85101F22F13E00313F84 /* LaunchScreen.storyboard in Resources */,
+				F4E4FC7B1F2329AF005EB502 /* data.json in Resources */,
+				F49A850D1F22F13E00313F84 /* Assets.xcassets in Resources */,
+				F4E4FC511F2302A7005EB502 /* SquareListCollectionCell.xib in Resources */,
+				F4E4FC791F2326FC005EB502 /* square.json in Resources */,
+				F49A850B1F22F13E00313F84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49A85141F22F13E00313F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49A851F1F22F13E00313F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02388EA78512B7A30398A59C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SquareList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		04E627EC799B5846F0920831 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SquareList/Pods-SquareList-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquareList/Pods-SquareList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C44B94884383AB90E96912A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SquareList/Pods-SquareList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49A84F91F22F13E00313F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E4FC741F230471005EB502 /* UIColor+HGJ.m in Sources */,
+				F4E4FC541F230303005EB502 /* ShareListItem.m in Sources */,
+				F4E4FC6D1F230313005EB502 /* ServiceCookie.m in Sources */,
+				F49A85081F22F13E00313F84 /* ViewController.m in Sources */,
+				F4E4FC681F230313005EB502 /* BaseService.m in Sources */,
+				F4E4FC6A1F230313005EB502 /* MainService.m in Sources */,
+				F4E4FC691F230313005EB502 /* Constant.m in Sources */,
+				F4E4FC6B1F230313005EB502 /* Service.m in Sources */,
+				F4E4FC4C1F230293005EB502 /* WaterFlowLayout.m in Sources */,
+				F4E4FC461F22FCF7005EB502 /* SquareListViewController.m in Sources */,
+				F49A85051F22F13E00313F84 /* AppDelegate.m in Sources */,
+				F49A85021F22F13E00313F84 /* main.m in Sources */,
+				F4E4FC501F2302A7005EB502 /* SquareListCollectionCell.m in Sources */,
+				F4E4FC6C1F230313005EB502 /* ServiceAPI.m in Sources */,
+				F4E4FC491F22FD5C005EB502 /* SquareViewController.m in Sources */,
+				F4E4FC6E1F230313005EB502 /* ServiceFactory.m in Sources */,
+				F4E4FC771F231D94005EB502 /* RefreshResult.m in Sources */,
+				F4E4FC6F1F230313005EB502 /* ServiceParams.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49A85121F22F13E00313F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49A851B1F22F13E00313F84 /* SquareListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49A851D1F22F13E00313F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49A85261F22F13E00313F84 /* SquareListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F49A85181F22F13E00313F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F49A84FC1F22F13E00313F84 /* SquareList */;
+			targetProxy = F49A85171F22F13E00313F84 /* PBXContainerItemProxy */;
+		};
+		F49A85231F22F13E00313F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F49A84FC1F22F13E00313F84 /* SquareList */;
+			targetProxy = F49A85221F22F13E00313F84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F49A85091F22F13E00313F84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49A850A1F22F13E00313F84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F49A850E1F22F13E00313F84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49A850F1F22F13E00313F84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F49A85281F22F13E00313F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F49A85291F22F13E00313F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F49A852B1F22F13E00313F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8910D980833156B3598A88A9 /* Pods-SquareList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DFX5JC2W9J;
+				INFOPLIST_FILE = SquareList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhaoqiang.SquareList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F49A852C1F22F13E00313F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C2C2ACC5A2526736A7A064 /* Pods-SquareList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DFX5JC2W9J;
+				INFOPLIST_FILE = SquareList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhaoqiang.SquareList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F49A852E1F22F13E00313F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DFX5JC2W9J;
+				INFOPLIST_FILE = SquareListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhaoqiang.SquareListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareList.app/SquareList";
+			};
+			name = Debug;
+		};
+		F49A852F1F22F13E00313F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DFX5JC2W9J;
+				INFOPLIST_FILE = SquareListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhaoqiang.SquareListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareList.app/SquareList";
+			};
+			name = Release;
+		};
+		F49A85311F22F13E00313F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DFX5JC2W9J;
+				INFOPLIST_FILE = SquareListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhaoqiang.SquareListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SquareList;
+			};
+			name = Debug;
+		};
+		F49A85321F22F13E00313F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DFX5JC2W9J;
+				INFOPLIST_FILE = SquareListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhaoqiang.SquareListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SquareList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F49A84F81F22F13E00313F84 /* Build configuration list for PBXProject "SquareList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49A85281F22F13E00313F84 /* Debug */,
+				F49A85291F22F13E00313F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49A852A1F22F13E00313F84 /* Build configuration list for PBXNativeTarget "SquareList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49A852B1F22F13E00313F84 /* Debug */,
+				F49A852C1F22F13E00313F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49A852D1F22F13E00313F84 /* Build configuration list for PBXNativeTarget "SquareListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49A852E1F22F13E00313F84 /* Debug */,
+				F49A852F1F22F13E00313F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49A85301F22F13E00313F84 /* Build configuration list for PBXNativeTarget "SquareListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49A85311F22F13E00313F84 /* Debug */,
+				F49A85321F22F13E00313F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F49A84F51F22F13E00313F84 /* Project object */;
+}
